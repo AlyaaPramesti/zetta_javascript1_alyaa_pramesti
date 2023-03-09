@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CD5C5C;
+}
+
+.namatoko {
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: #e8eef2;
+  padding-top: 40px;
+  font-family: -apple-system, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  background-color: #FFB6C1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 450px;
+  width: 1000px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #252627;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.title {
+  padding: 10px 7px;
+  border-radius: 5px 5px 0 0;
+  background-color: #F08080;
+  text-align: center;
+  font-size: 23px;
+  color: #f2efe9;
+  font-weight: 650;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container {
+  padding: 15px;
+}
+
+.form-grup-left {
+  margin-right: 20px;
+}
+
+.form-grup-right {
+  margin-right: 20px;
+}
+
+.form-input {
+  margin-bottom: 5px;
+}
+
+.form-grup {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #252627;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#total_price {
+  background-color: #F0E68C;
+}
+
+.input {
+  border: 1px solid #252627;
+  border-radius: 5px;
+  height: 25px;
+  width: 255px;
+  padding: 3px 10px;
+}
+
+.bersih {
+  clear: both;
+}
+
+.buttonn {
+  width: 100%;
+  height: 60px;
+}
+
+.buttonCp {
+  margin: 5px 10px;
+}
+
+button[type=submit] {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid 2px green;
+  padding: 10px 40px;
+  background-color: white;
+  box-shadow: inset 0 0 2px black;
+  color: green;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 500px;
+}
+
+button[type=submit]:hover {
+  background: green;
+  color: white;
+  border: 1px white solid;
+  box-shadow: inset 0 0 15px lemonchiffon;
+  cursor: pointer;
+}
+
+.cancle {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid 2px red;
+  padding: 10px 40px;
+  background-color: white;
+  box-shadow: inset 0 0 2px black;
+  color: red;
+  float: right;
+  margin-left: 50px;
+  margin-bottom: 500px;
+}
+
+.cancle:hover {
+  background: red;
+  color: white;
+  border: 1px white solid;
+  box-shadow: inset 0 0 15px lemonchiffon;
+  cursor: pointer;
+}

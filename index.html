@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penjualan Barang with Javascript</title>
+  <link rel ="stylesheet" href="style.css"
+</head>
+<body>
+  <div class="namatoko">
+    <marquee><h3>Welcome</h3></marquee>
+    <marquee><h3>Toko Buku Meow</h3></marquee>
+  </div>
+  <div class="container">
+    <div class="title">PENJUALAN BARANG</div>
+    <div class="form-container">
+      <form class="form" action="#">
+        <div class="form-grup">
+
+          <div class="form-grup-left">
+            <div class="form-input">
+              <label for="code" class="label">Kode Barang</label>
+              <input type="text" class="input" id="code">
+            </div>
+            <div class="form-input">
+              <label for="price" class="label">Harga</label>
+              <input type="number" class="input" id="price" placeholder="0">
+            </div>
+            <div class="form-input">
+              <label for="subtotal" class="label">Sub Total</label>
+              <input type="text" class="input" id="subtotal" placeholder="Rp 0,-" disabled>
+            </div>
+            <div class="form-input">
+              <label for="total_discount" class="label">Nilai Diskon</label>
+              <input type="text" class="input" id="total_discount" placeholder="Rp 0,-" disabled>
+            </div>
+          </div>
+
+          <div class="form-grup-right">
+            
+            <div class="form-input">
+              <label for="name" class="label">Nama Barang</label>
+              <input type="text" class="input" id="name">
+            </div>
+            <div class="form-input">
+              <label for="total" class="label">Jumlah Barang</label>
+              <input type="number" class="input" id="total" placeholder="0">
+            </div>
+            <div class="form-input">
+              <label for="discount" class="label">Diskon</label>
+              <input type="text" class="input" id="discount" placeholder="Rp 0,-" disabled>
+            </div>
+            <div class="form-input">
+              <label for="tax" class="label">Tax</label>
+              <input type="text" class="input" id="tax" placeholder="Rp 0,-" disabled>
+            </div>
+            <div class="form-input">
+              <label for="total_price" class="label">Total Harga</label>
+              <input type="text" class="input" id="total_price" placeholder="Rp 0,-" disabled>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="bersih"></div>
+        <div class="buttonn">
+        <div class="buttonCp">
+          <button type="reset" id="cancle" onclick="window.location.reload()" class="cancle" title="klik untuk batal">
+              <i class="fa-solid fa-ban"></i>
+              Batal
+          </button>
+        </div>
+
+        <div class="buttonCp">
+          <button type="submit" id="payment" onclick="payment()" class="pay" title="klik untuk bayar">
+              <i class="fa-solid fa-money-check"></i>
+              Bayar
+          </button>
+        </div>
+      </div>
+
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
